@@ -1,0 +1,25 @@
+*.class
+
+*.xsd
+build.xml
+platformhome.properties
+wro_addons.xml
+*-testclasses.xml
+
+.settings/
+
+
+*.iml
+.idea/
+
+*/hmc/bin/
+*/hmc/classes/
+gensrc/
+
+# exclude all jalo classes
+**/training/trainingcore/src/de/hybris/training/core/jalo/**
+**/trainingextension/src/de/hybris/trainingextension/jalo/**
+
+*rebel.xml
+
+*_bof.jar
